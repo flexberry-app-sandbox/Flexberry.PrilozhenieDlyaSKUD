@@ -22,19 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-dlya-s-k-u-d.i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-dlya-s-k-u-d.i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос-l.title'),
-            icon: 'archive',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-dlya-s-k-u-d-админ-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-dlya-s-k-u-d.i-i-s-prilozhenie-dlya-s-k-u-d-админ-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-dlya-s-k-u-d.i-i-s-prilozhenie-dlya-s-k-u-d-админ-l.title'),
-            icon: 'calendar',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-dlya-s-k-u-d.i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-dlya-s-k-u-d.i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр-l.title'),
-            icon: 'folder',
+            icon: 'file',
             children: null
           }]
         }
