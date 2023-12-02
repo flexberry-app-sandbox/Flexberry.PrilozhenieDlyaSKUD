@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-dlya-s-k-u-d-админ-e",
+  "editForm": "i-i-s-prilozhenie-dlya-s-k-u-d-админ-e",
+  "external": false,
+  "caption": "Админ",
+  "name": "IISPrilozhenie_dlya_SKUDАдминL",
+  "className": "АдминL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-админ",
+      "modelProjection": "АдминL"
+    }
+  ]
+}

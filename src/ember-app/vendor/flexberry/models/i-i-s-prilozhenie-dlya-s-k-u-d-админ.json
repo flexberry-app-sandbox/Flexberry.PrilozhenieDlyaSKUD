@@ -1,0 +1,82 @@
+﻿{
+  "name": "IISPrilozhenie_dlya_SKUDАдмин",
+  "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-админ",
+  "className": "Админ",
+  "nameSpace": "IIS.Prilozhenie_dlya_SKUD",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрСотр",
+      "relatedTo": "i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "АдминE",
+      "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-админ",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "СпрСотр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Спр сотр",
+          "name": "спрСотр",
+          "relatedTo": "i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "АдминL",
+      "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-админ",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СпрСотр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "спрСотр",
+          "relatedTo": "i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

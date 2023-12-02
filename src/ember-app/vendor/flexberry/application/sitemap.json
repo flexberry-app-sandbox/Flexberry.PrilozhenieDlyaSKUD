@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Prilozhenie_dlya_ SKUD",
+  "applicationTitle": "Prilozhenie_dlya_ SKUD",
+  "items": [
+    {
+      "link": null,
+      "menuName": "prilozhenie-dlya-s-k-u-d",
+      "caption": "Prilozhenie_dlya_SKUD",
+      "title": "Prilozhenie_dlya_SKUD",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос-l",
+          "menuName": null,
+          "caption": "Кар дос",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-dlya-s-k-u-d-админ-l",
+          "menuName": null,
+          "caption": "Админ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр-l",
+          "menuName": null,
+          "caption": "Спр сотр",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

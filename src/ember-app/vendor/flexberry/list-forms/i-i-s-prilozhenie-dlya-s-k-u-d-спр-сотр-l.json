@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр-e",
+  "editForm": "i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр-e",
+  "external": false,
+  "caption": "Спр сотр",
+  "name": "IISPrilozhenie_dlya_SKUDСпрСотрL",
+  "className": "СпрСотрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-спр-сотр",
+      "modelProjection": "СпрСотрL"
+    }
+  ]
+}

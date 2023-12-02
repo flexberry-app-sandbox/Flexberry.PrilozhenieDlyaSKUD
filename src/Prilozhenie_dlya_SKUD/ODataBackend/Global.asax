@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="IIS.Prilozhenie_dlya_SKUD.Global" Language="C#" %>

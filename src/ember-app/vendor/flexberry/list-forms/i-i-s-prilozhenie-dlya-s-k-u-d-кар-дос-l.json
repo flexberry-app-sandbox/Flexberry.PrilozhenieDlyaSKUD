@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос-e",
+  "editForm": "i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос-e",
+  "external": false,
+  "caption": "Кар дос",
+  "name": "IISPrilozhenie_dlya_SKUDКарДосL",
+  "className": "КарДосL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос",
+      "modelProjection": "КарДосL"
+    }
+  ]
+}

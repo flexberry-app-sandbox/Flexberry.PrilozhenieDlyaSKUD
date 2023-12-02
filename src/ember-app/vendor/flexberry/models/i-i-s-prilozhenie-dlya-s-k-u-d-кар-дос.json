@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISPrilozhenie_dlya_SKUDКарДос",
+  "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос",
+  "className": "КарДос",
+  "nameSpace": "IIS.Prilozhenie_dlya_SKUD",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерКарты",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "админ",
+      "relatedTo": "i-i-s-prilozhenie-dlya-s-k-u-d-админ",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КарДосE",
+      "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос",
+      "attrs": [
+        {
+          "name": "номерКарты",
+          "caption": "Номер карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Админ",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 1,
+          "type": "standard",
+          "caption": "Админ",
+          "name": "админ",
+          "relatedTo": "i-i-s-prilozhenie-dlya-s-k-u-d-админ",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "КарДосL",
+      "modelName": "i-i-s-prilozhenie-dlya-s-k-u-d-кар-дос",
+      "attrs": [
+        {
+          "name": "номерКарты",
+          "caption": "Номер карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

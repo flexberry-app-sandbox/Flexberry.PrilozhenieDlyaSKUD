@@ -1,0 +1,1 @@
+docker-compose -p prilozhenie_dlya_skud up -d
